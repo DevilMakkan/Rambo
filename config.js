@@ -16,7 +16,7 @@ global.author = "By: Martin (Fantox)"
 global.OwnerName = "Martin"
 global.BotSourceCode = "https://github.com/FantoX001/Miku-MD"
 global.SupportGroupLink = "https://chat.whatsapp.com/FExjJWMbZmWJ5NNBl7GLy5"
-global.sessionName = "NFJkZjl3ZDE="
+global.sessionName = "MnduYVVlU0Y="
 global.prefa = ['-']
 global.location = "West Bengal, India"
 global.reactmoji = "❤️"
