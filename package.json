@@ -1,5 +1,5 @@
 {
- "name": "CheemsBot-MD",
+ "name": "Rambo",
  "description": "Multi Device Whatsapp Bot By Xeon",
  "version": "3.0.0",
  "main": "index.js",
@@ -85,10 +85,10 @@
  },
  "repository": {
   "type": "git",
-  "url": "git+https://github.com/DGXeon/CheemsBot-MD3.git"
+  "url": "git+https://github.com/DevilMakkan/Rambo.git"
  },
  "bugs": {
-  "url": "https://github.com/DGXeon/CheemsBot-MD3/issues"
+  "url": "https://github.com/DevilMakkan/Rambo.git"
  },
- "homepage": "https://github.com/DGXeon/CheemsBot-MD3#readme"
+ "homepage": "https://github.com/DevilMakkan/Rambo.git"
 }
