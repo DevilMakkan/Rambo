@@ -1,6 +1,6 @@
 <p align="center">
    <a href="https://github.com/FantoX001">
-    <img src="https://c.tenor.com/NJVFjOYEcsIAAAAC/miku-gotoubun.gif" width="610">
+    <img src="https://w.wallhaven.cc/full/q6/wallhaven-q611lq.png" width="610">
      
 </p>
 <h1 align="center"> Rambo
