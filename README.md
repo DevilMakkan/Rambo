@@ -118,6 +118,4 @@ npm start
      
 ## Credits and Appreciation:
 
--   `Adiwajshing` sir for [Baileys](https://github.com/adiwajshing/baileys).
--   `Arus~Bots` team for [Mizuhara](https://github.com/Arus-Bots/Mizuhara).
--   `Xeon` for [Cheems](https://github.com/DGXeon/CheemsBot-MD2).
+-   vander_shift_🎀
