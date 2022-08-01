@@ -72,8 +72,8 @@ heroku/nodejs
 
 ## Join My Whatsapp Group for Support
 
-<a href="https://chat.whatsapp.com/FExjJWMbZmWJ5NNBl7GLy5l"/>
-   </a>
+<a href="https://chat.whatsapp.com/FExjJWMbZmWJ5NNBl7GLy5l"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</a>
 
 ## Physical Deployment Method ( Untested! )
 ```js
