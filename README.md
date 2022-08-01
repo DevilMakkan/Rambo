@@ -112,7 +112,7 @@ npm start
 
 
 ## Help:
-- [`Follow`](https://github.com/FantoX001/#follow) me on GitHub to make me feel motivated.
+- [`Follow`](https://instagram.com/vander_shift_?igshid=YmMyMTA2M2Y=/#follow) me on GitHub to make me feel motivated.
 - Give my project a ⭐ if you liked it.
 
      
