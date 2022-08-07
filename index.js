@@ -18,7 +18,7 @@ const { color } = require('./lib/color')
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 async function startMiku() {
-console.log(color(figlet.textSync('Miku Bot MD', {
+console.log(color(figlet.textSync('Rambo', {
 		font: 'Pagga',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -71,7 +71,7 @@ Miku.ev.on('groups.update', async pea => {
        try {
        ppgc = await Miku.profilePictureUrl(pea[0].id, 'image')
        } catch {
-       ppgc = 'https://wallpapercave.com/wp/wp10524580.jpg'
+       ppgc = 'https://th.bing.com/th/id/OIP.EtYMBa9_ck_D8xqPWcIR1wHaHa?pid=ImgDet&rs=1'
        }
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
@@ -101,13 +101,13 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 try {
                     ppuser = await Miku.profilePictureUrl(num, 'image')
                 } catch {
-                    ppuser = 'https://wallpapercave.com/wp/wp10524609.jpg'
+                    ppuser = 'https://th.bing.com/th/id/OIP.EtYMBa9_ck_D8xqPWcIR1wHaHa?pid=ImgDet&rs=1'
                 }
 
                 try {
                     ppgroup = await Miku.profilePictureUrl(anu.id, 'image')
                 } catch {
-                    ppgroup = 'https://wallpapercave.com/wp/wp10524609.jpg'
+                    ppgroup = 'https://th.bing.com/th/id/OIP.EtYMBa9_ck_D8xqPWcIR1wHaHa?pid=ImgDet&rs=1'
                 }
 
                 if (anu.action == 'add') {
