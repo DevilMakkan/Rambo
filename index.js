@@ -18,7 +18,7 @@ const { color } = require('./lib/color')
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 async function startMiku() {
-console.log(color(figlet.textSync('Rambo', {
+console.log(color(figlet.textSync('Miku Bot MD', {
 		font: 'Pagga',
 		horizontalLayout: 'default',
 		vertivalLayout: 'default',
@@ -26,14 +26,14 @@ console.log(color(figlet.textSync('Rambo', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHello, I am Martin, the main developer of this bot.\n\nThanks for using: Miku Bot','aqua'))
-console.log(color('\nYou can follow me on GitHub: hackerz-lab','aqua'))
+console.log(color('\nHello, I am Fantox, the main developer of this bot.\n\nThanks for using: Miku Bot','aqua'))
+console.log(color('\nYou can follow me on GitHub: FantoX001','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const Miku = MikuConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Miku by: Martin','Safari','1.0.0'],
+        browser: ['Miku by: Fantox','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -71,7 +71,7 @@ Miku.ev.on('groups.update', async pea => {
        try {
        ppgc = await Miku.profilePictureUrl(pea[0].id, 'image')
        } catch {
-       ppgc = 'https://th.bing.com/th/id/OIP.EtYMBa9_ck_D8xqPWcIR1wHaHa?pid=ImgDet&rs=1'
+       ppgc = 'https://wallpapercave.com/wp/wp10524580.jpg'
        }
        let wm_fatih = { url : ppgc }
        if (pea[0].announce == true) {
@@ -101,13 +101,13 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 try {
                     ppuser = await Miku.profilePictureUrl(num, 'image')
                 } catch {
-                    ppuser = 'https://th.bing.com/th/id/OIP.EtYMBa9_ck_D8xqPWcIR1wHaHa?pid=ImgDet&rs=1'
+                    ppuser = 'https://wallpapercave.com/wp/wp10524609.jpg'
                 }
 
                 try {
                     ppgroup = await Miku.profilePictureUrl(anu.id, 'image')
                 } catch {
-                    ppgroup = 'https://th.bing.com/th/id/OIP.EtYMBa9_ck_D8xqPWcIR1wHaHa?pid=ImgDet&rs=1'
+                    ppgroup = 'https://wallpapercave.com/wp/wp10524609.jpg'
                 }
 
                 if (anu.action == 'add') {
